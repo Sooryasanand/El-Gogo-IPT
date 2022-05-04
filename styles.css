@@ -91,6 +91,7 @@ button:hover{
     margin-top: 45px;
     width: max-content;
     box-sizing : border-box;
+    animation-iteration-count: infinite;
 }
 
 .secondary-header::before,
@@ -101,6 +102,7 @@ button:hover{
     right: 0;
     bottom: 0;
     left: 0;
+    animation-iteration-count: infinite;
 }
 
 .secondary-header::before {
@@ -138,13 +140,13 @@ button:hover{
 
 .phone {
     margin-top: 80px;
-    width: 300px;
-    height: 650px;
+    width: 380px;
+    height: 550px;
     margin-right: 50px;
 }
 
 .Iphone {
-    margin-top: -20px;
+    margin-top: 80px;
     width: 350px;
     height: 550px;
     margin-left: 50px;
