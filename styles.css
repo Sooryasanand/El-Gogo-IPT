@@ -151,3 +151,12 @@ button:hover{
     height: 550px;
     margin-left: 50px;
 }
+
+.text-container {
+    margin: 80px 200px;
+}
+
+.header-title {
+    font-size: 40px;
+
+}
