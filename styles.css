@@ -26,6 +26,10 @@ header {
     align-items: center;
     padding: 16px 5%;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    background-color: white;
+    position: fixed;
+    top: 0;
+    width: 90%;
 }
 
 .logo {
@@ -160,8 +164,10 @@ button:hover{
 
 .text-container {
     margin-top: 50px;
-    margin-left: 200px;
+    margin-left: 300px;
     margin-bottom: 50px;
+    display: flex;
+    flex-direction: row;
 }
 
 .header-title {
@@ -203,4 +209,55 @@ button:hover{
     width: 2%;
     margin-left: 5px;
     color: #1967d2;
+}
+
+.android {
+    width: 240px;
+    height: 500px;
+    margin-left: 200px;
+    margin-top: -50px;
+}
+
+.getstarted-section {
+    margin: auto;
+    margin-top: 300px;
+    margin-bottom: 300px;
+    width: 50%;
+    padding: 10px;
+}
+
+.ElHouse {
+    width: 100px;
+    height: 95px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.getStarted-text {
+    text-align: center;
+    margin-top: 30px;
+    font-size: 40px;
+    color: #202124;
+    font-family: "Google Sans",Roboto,Arial,Helvetica,sans-serif;
+    font-weight: 400;
+    letter-spacing: 2px;
+}
+
+.btn-Menu-getStarted {
+    margin-left: 20px;
+    padding: 14px 25px;
+    background-color: rgba(28,115,232,255);
+    color: white;
+    border: none;
+    cursor: pointer;
+    transition: all 0.3s ease 0s;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 30px;
+}
+
+.btn-Menu-getStarted:hover{
+    background-color: #1968d1;
 }
