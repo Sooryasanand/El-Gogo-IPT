@@ -30,6 +30,7 @@ header {
     position: fixed;
     top: 0;
     width: 90%;
+    z-index: 99;
 }
 
 .logo {
@@ -144,7 +145,7 @@ button:hover{
     
     display: flex;
     align-items: center;
-    margin: 0 100px;
+    margin-top :100px;
     justify-content: center;
 }
 
@@ -163,7 +164,15 @@ button:hover{
 }
 
 .text-container {
-    margin-top: 50px;
+    margin-top: 100px;
+    margin-left: 300px;
+    margin-bottom: 50px;
+    display: flex;
+    flex-direction: row;
+}
+
+.text-container2 {
+    margin-top: 300px;
     margin-left: 300px;
     margin-bottom: 50px;
     display: flex;
@@ -241,7 +250,7 @@ button:hover{
     color: #202124;
     font-family: "Google Sans",Roboto,Arial,Helvetica,sans-serif;
     font-weight: 400;
-    letter-spacing: 2px;
+    letter-spacing: 0.5px;
 }
 
 .btn-Menu-getStarted {
