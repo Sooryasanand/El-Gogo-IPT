@@ -3,6 +3,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@600&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Source+Code+Pro:wght@300&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@200&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
 
 :root {
     --typewriter-seed: 3s;
@@ -230,7 +231,7 @@ button:hover{
 .getstarted-section {
     margin: auto;
     margin-top: 300px;
-    margin-bottom: 300px;
+    margin-bottom: 200px;
     width: 50%;
     padding: 10px;
 }
@@ -269,4 +270,66 @@ button:hover{
 
 .btn-Menu-getStarted:hover{
     background-color: #1968d1;
+}
+
+.follow-section {
+    display: flex;
+    flex-direction: row;
+    margin-left: 120px;
+    margin-top: 50px;
+}
+
+.follow-text {
+    margin-top: 50px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+}
+
+.bottom-icon {
+    padding-top: 45px;
+    margin-left: 40px; 
+    font-family: Roboto;
+    font-size: 14px;
+    font-weight: 400;
+    width: 30px;
+    height: 30px;
+}
+
+.BottomSection {
+    height: 500px;
+    background-color: #f8f9fa;
+}
+
+.line {
+    margin-left: 120px;
+    margin-top: 40px;
+}
+
+.bottom-section {
+    display: flex;
+    flex-direction: row;
+    margin-top: 40px;
+    margin-left: 120px;
+}
+
+.first-section {
+    display: flex;
+    flex-direction: row;
+    
+}
+
+.first-section-text {
+    margin-left: 30px;
+}
+
+.second-section {
+    display: flex;
+    flex-direction: row;
+    margin-left: 500px;
+}
+
+.help_logo {
+    width: 20px;
+    height: 20px;
+    margin-right: 10px;
 }
