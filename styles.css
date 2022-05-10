@@ -10,11 +10,27 @@
 
 :root {
     --typewriter-seed: 3s;
+    --primary-color: white;
+    --secondary-color: black;
+    --third-color: grey;
+    --button-color: white;
+    
+}
+
+.dark-theme {
+    --primary-color: black;
+    --secondary-color: white;
+    --third-color: grey;
+    --button-color: white;
 }
 
 * {
     margin: 0;
     padding: 0;
+}
+
+body {
+    background-color: var(--primary-color)
 }
 
 li, a, button {
@@ -30,10 +46,11 @@ header {
     align-items: center;
     padding: 16px 5%;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-    background-color: white;
+    background-color: var(--primary-color);
     position: fixed;
     top: 0;
     width: 90%;
+    color: var(--secondary-color);
     z-index: 99;
 }
 
@@ -46,6 +63,8 @@ header {
     cursor: pointer;
     font-family: 'Josefin Sans', sans-serif;
     margin-right: auto;
+    color: var(--secondary-color)
+    background-color: var(--primary-color)
 }
 
 .nav-links{
@@ -59,18 +78,18 @@ header {
 
 .nav-links li a {
     transition: all 0.3s ease 0s;
-    color: grey;
+    color: var(--third-color);
 }
 
 .nav-links li a:hover {
-    color: black;
+    color: var(--secondary-color);
 }
 
 button {
     margin-left: 20px;
     padding: 14px 25px;
     background-color: rgba(28,115,232,255);
-    color: white;
+    color: var(--button-color);
     border: none;
     cursor: pointer;
     transition: all 0.3s ease 0s;
@@ -91,12 +110,14 @@ button:hover{
 .header{
     text-align: center;
     font-size: 45px;
+    color: var(--secondary-color);
 }
 
 .secondary-header-container {
     display: grid;
     place-content: center;
     text-align: center;
+    background-color: var(--primary-color);
 }
 
 .secondary-header {
@@ -107,6 +128,7 @@ button:hover{
     width: max-content;
     box-sizing : border-box;
     animation-iteration-count: infinite;
+    color: var(--secondary-color);
 }
 
 .secondary-header::before,
@@ -121,13 +143,13 @@ button:hover{
 }
 
 .secondary-header::before {
-    background: white;
+    background: var(--primary-color);
     animation: typewriter var(--typewriter-seed) steps(18) 1s forwards;
 }
 
 .secondary-header::after {
     width: 4px;
-    background: black;
+    background: var(--secondary-color);
     animation: 
         typewriter var(--typewriter-seed) steps(18) 1s forwards,
         blink 750ms steps(18) infinite;
@@ -154,9 +176,9 @@ button:hover{
 }
 
 .phone {
-    margin-top: 80px;
+    margin-top: -50px;
     width: 380px;
-    height: 550px;
+    height: 430px;
     margin-right: 50px;
 }
 
@@ -187,6 +209,7 @@ button:hover{
     font-size: 40px;
     font-weight: lighter;
     font-family: "Google Sans", Roboto, Arial, Helvetica, sans-serif;
+    color: var(--secondary-color)
 }
 
 .text-side {
@@ -194,6 +217,7 @@ button:hover{
     font-size: 18px;
     font-family: 'Source Sans Pro', sans-serif;
     font-weight: lighter;
+    color: var(--secondary-color)
 }
 
 .btn-Menu-text {
@@ -251,7 +275,7 @@ button:hover{
     text-align: center;
     margin-top: 30px;
     font-size: 40px;
-    color: #202124;
+    color: var(--secondary-color);
     font-family: "Google Sans",Roboto,Arial,Helvetica,sans-serif;
     font-weight: 400;
     letter-spacing: 0.5px;
@@ -261,7 +285,7 @@ button:hover{
     margin-left: 20px;
     padding: 14px 25px;
     background-color: rgba(28,115,232,255);
-    color: white;
+    color: var(--button-color);
     border: none;
     cursor: pointer;
     transition: all 0.3s ease 0s;
@@ -280,6 +304,7 @@ button:hover{
     flex-direction: row;
     margin-left: 120px;
     margin-top: 50px;
+    color: var(--secondary-color)
 }
 
 .follow-text {
@@ -300,7 +325,7 @@ button:hover{
 
 .BottomSection {
     height: 500px;
-    background-color: #f8f9fa;
+    background-color: var(--primary-color);
 }
 
 .line {
@@ -327,6 +352,12 @@ button:hover{
     justify-content: center;
     font-family: 'Roboto Flex', sans-serif;
     font-weight: bold;
+    color: var(--secondary-color)
+}
+
+.help_text {
+    color: var(--secondary-color);
+    margin-top: 10px;
 }
 
 .second-section {
@@ -339,6 +370,7 @@ button:hover{
     width: 20px;
     height: 20px;
     margin-right: 10px;
+    margin-top: 10px;
 }
 
 .heading-section {
@@ -352,6 +384,7 @@ button:hover{
     margin-top: 50px;
     font-family: 'Radio Canada', sans-serif;
     font-weight: 400px;
+    color: var(--secondary-color)
 }
 
 .heading-section-p-section {
@@ -362,7 +395,13 @@ button:hover{
 
 .heading-section-p {
     margin-left: 120px;
-    margin-top: 20px;
     font-family: 'Roboto', sans-serif;
-    color: grey;
+    color: var(--third-color);
+}
+
+.light-dark-mode {
+    margin-right: 20px;
+    margin-top: 8px;
+    width: 25px;
+    height: 25px;
 }
