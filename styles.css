@@ -6,6 +6,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Roboto+Flex:opsz,wght@8..144,100&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Radio+Canada:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap');
 
 :root {
     --typewriter-seed: 3s;
@@ -342,13 +343,26 @@ button:hover{
 
 .heading-section {
     display: flex;
-    justify-content: center;
     align-items: center;
 }
 
 .heading-section-text {
-    margin: 0 120px;
-    margin-top: 40px;
+    margin-right: 120px;
+    margin-left: 180px;
+    margin-top: 50px;
     font-family: 'Radio Canada', sans-serif;
     font-weight: 400px;
+}
+
+.heading-section-p-section {
+    margin-top: 30px;
+    margin-left: 60px;
+}
+
+
+.heading-section-p {
+    margin-left: 120px;
+    margin-top: 20px;
+    font-family: 'Roboto', sans-serif;
+    color: grey;
 }
