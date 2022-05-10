@@ -10,6 +10,10 @@
 
 :root {
     --typewriter-seed: 3s;
+
+    /* Colors */
+    --fg-color: black;
+    --bg-color: white;
 }
 
 * {
@@ -30,7 +34,7 @@ header {
     align-items: center;
     padding: 16px 5%;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-    background-color: white;
+    background-color: var(--bg-color);
     position: fixed;
     top: 0;
     width: 90%;
@@ -121,13 +125,13 @@ button:hover{
 }
 
 .secondary-header::before {
-    background: white;
+    background: var(--bg-color);
     animation: typewriter var(--typewriter-seed) steps(18) 1s forwards;
 }
 
 .secondary-header::after {
     width: 4px;
-    background: black;
+    background: var(--fg-color);
     animation: 
         typewriter var(--typewriter-seed) steps(18) 1s forwards,
         blink 750ms steps(18) infinite;
@@ -353,6 +357,8 @@ button:hover{
     font-family: 'Radio Canada', sans-serif;
     font-weight: 400px;
 }
+<<<<<<< Updated upstream
+<<<<<<< Updated upstream
 
 .heading-section-p-section {
     margin-top: 30px;
@@ -366,3 +372,7 @@ button:hover{
     font-family: 'Roboto', sans-serif;
     color: grey;
 }
+=======
+>>>>>>> Stashed changes
+=======
+>>>>>>> Stashed changes
