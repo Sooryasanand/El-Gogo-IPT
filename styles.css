@@ -63,8 +63,8 @@ header {
     cursor: pointer;
     font-family: 'Josefin Sans', sans-serif;
     margin-right: auto;
-    color: var(--secondary-color)
-    background-color: var(--primary-color)
+    color: var(--secondary-color);
+    background-color: var(--primary-color);
 }
 
 .nav-links{
@@ -111,6 +111,7 @@ button:hover{
     text-align: center;
     font-size: 45px;
     color: var(--secondary-color);
+    padding-top: 80px;
 }
 
 .secondary-header-container {
@@ -397,6 +398,7 @@ button:hover{
     margin-left: 120px;
     font-family: 'Roboto', sans-serif;
     color: var(--third-color);
+    margin-bottom: 20px;
 }
 
 .light-dark-mode {
