@@ -359,12 +359,13 @@ button:hover{
 .help_text {
     color: var(--secondary-color);
     margin-top: 10px;
+    margin-right: 50px;
 }
 
 .second-section {
     display: flex;
     flex-direction: row;
-    margin-left: 500px;
+    margin-left: 250px;
 }
 
 .help_logo {
