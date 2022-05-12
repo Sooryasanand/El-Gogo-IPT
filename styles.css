@@ -336,6 +336,7 @@ button:hover{
 
 .bottom-section {
     display: flex;
+    justify-content: center;
     flex-direction: row;
     margin-top: 4%;
     margin-left: 10%;

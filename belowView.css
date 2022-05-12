@@ -7,6 +7,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto+Flex:opsz,wght@8..144,100&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Radio+Canada:wght@500&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@200&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Flex:opsz,wght@8..144,200&family=Source+Sans+Pro:wght@200&display=swap');
 
 :root {
     --typewriter-seed: 3s;
@@ -221,7 +223,7 @@ button:hover{
 
 .header-title-top {
     font-size: 40px;
-    font-weight: 800px;
+    font-weight: 700px;
     font-family: "Google Sans", Roboto, Arial, Helvetica, sans-serif;
     color: var(--secondary-color)
 }
@@ -426,4 +428,27 @@ button:hover{
     margin-top: 8px;
     width: 25px;
     height: 25px;
+}
+
+.btn-Menu-top-section {
+    margin-top: 30px;
+    margin-left: -2px;
+}
+
+.middle-section {
+    text-align: center;
+    padding-top: 100px;
+    padding-bottom: 200px;
+}
+
+.middle-section-heading {
+    font-size: 32px;
+    font-family: 'Source Sans Pro', sans-serif;
+    margin-bottom: 20px;
+}
+
+.middle-section-body {
+    font-family: 'Roboto Flex', sans-serif;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 20px;
 }
