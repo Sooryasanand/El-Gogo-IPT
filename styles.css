@@ -55,7 +55,7 @@ header {
 }
 
 .logo {
-    height: 35px;
+    height: 25px;
     padding-right: 20px;
 }
 
@@ -345,14 +345,14 @@ button:hover{
     display: flex;
     justify-content: inherit;
     align-items: inherit;
-    height: 35px;
+    height: 25px;
 }
 
 .bottom-section-items {
     display: flex;
+    flex: 0 0 25em;
     justify-content: space-between;
     align-items: inherit;
-    width: 35%;
     font-family: 'Roboto Flex', sans-serif;
     font-weight: bold;
     color: var(--secondary-color)
@@ -360,16 +360,16 @@ button:hover{
 
 .second-section {
     display: flex;
+    flex: 0 0 7em;
     justify-content: space-between;
     align-items: inherit;
-    width: 10%;
 }
 
 .help {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    width: 50%;
+    flex: 0 0 3.75em;
 }
 
 .help_logo {
