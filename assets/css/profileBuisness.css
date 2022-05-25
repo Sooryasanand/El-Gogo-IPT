@@ -459,6 +459,14 @@ button:hover{
     font-family: 'Source Sans Pro', sans-serif;
     font-weight: lighter;
     color: var(--secondary-color);
+}
+
+.text-side-bottom {
+    margin-top: 20px;
+    font-size: 18px;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-weight: lighter;
+    color: var(--secondary-color);
     text-align: center;
 }
 
