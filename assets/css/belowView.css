@@ -119,7 +119,6 @@ button:hover{
 .secondary-header-container {
     display: grid;
     place-content: center;
-    text-align: center;
     background-color: var(--primary-color);
 }
 
@@ -459,6 +458,14 @@ button:hover{
     font-family: 'Source Sans Pro', sans-serif;
     font-weight: lighter;
     color: var(--secondary-color);
+}
+
+.text-side-bottom {
+    margin-top: 20px;
+    font-size: 18px;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-weight: lighter;
     text-align: center;
+    color: var(--secondary-color);
 }
 
