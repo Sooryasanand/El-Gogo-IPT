@@ -341,22 +341,19 @@ button:hover{
     margin-top: 4%;
 }
 
-.first-section {
+.bottom-section-items {
     display: flex;
-    flex-direction: row;
-    
-}
+    width: 35%;
+    justify-content: space-between;
+    align-items: center;
 
-.first-section-text {
-    margin-left: 30px;
-    padding-top: 2px;
-    justify-content: center;
     font-family: 'Roboto Flex', sans-serif;
     font-weight: bold;
     color: var(--secondary-color)
 }
 
 .help_text {
+    font-family 'Roboto Flex', sans-serif;
     color: var(--secondary-color);
     margin-top: 10px;
     margin-right: 50px;
@@ -403,6 +400,7 @@ button:hover{
 }
 
 .light-dark-mode {
+    cursor: pointer;
     margin-right: 20px;
     margin-top: 8px;
     width: 25px;
