@@ -336,40 +336,56 @@ button:hover{
 
 .bottom-section {
     display: flex;
-    justify-content: center;
-    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
     margin-top: 4%;
+}
+
+.bottom-section-logo {
+    display: flex;
+    justify-content: inherit;
+    align-items: inherit;
+    height: 35px;
 }
 
 .bottom-section-items {
     display: flex;
-    width: 35%;
     justify-content: space-between;
-    align-items: center;
-
+    align-items: inherit;
+    width: 35%;
     font-family: 'Roboto Flex', sans-serif;
     font-weight: bold;
     color: var(--secondary-color)
 }
 
-.help_text {
-    font-family 'Roboto Flex', sans-serif;
-    color: var(--secondary-color);
-    margin-top: 10px;
-    margin-right: 50px;
-}
-
 .second-section {
     display: flex;
-    flex-direction: row;
-    margin-left: 250px;
+    justify-content: space-between;
+    align-items: inherit;
+    width: 10%;
+}
+
+.help {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 50%;
 }
 
 .help_logo {
     width: 20px;
     height: 20px;
-    margin-right: 10px;
-    margin-top: 10px;
+}
+
+.help_text {
+    font-family: 'Roboto Flex', sans-serif;
+    color: var(--secondary-color);
+}
+
+.light-dark-mode {
+    cursor: pointer;
+    width: 25px;
+    height: 25px;
 }
 
 .heading-section {
@@ -399,10 +415,3 @@ button:hover{
     margin-bottom: 20px;
 }
 
-.light-dark-mode {
-    cursor: pointer;
-    margin-right: 20px;
-    margin-top: 8px;
-    width: 25px;
-    height: 25px;
-}
