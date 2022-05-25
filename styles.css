@@ -300,6 +300,8 @@ button:hover{
 }
 
 .BottomSection {
+    display: flex;
+    flex-direction: column;
     height: 500px;
     background-color: var(--primary-color);
 }
@@ -333,21 +335,21 @@ button:hover{
     margin-top: 40px;
 }
 
-.bottom-section {
+.footer {
     display: flex;
     justify-content: space-around;
     align-items: center;
     margin-top: 4%;
 }
 
-.bottom-section-logo {
+.footer-logo {
     display: flex;
     justify-content: inherit;
     align-items: inherit;
     height: 25px;
 }
 
-.bottom-section-items {
+.footer-links {
     display: flex;
     flex: 0 1 25em;
     justify-content: space-between;
