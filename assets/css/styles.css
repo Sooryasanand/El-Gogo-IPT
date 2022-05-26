@@ -191,18 +191,20 @@ button:hover{
 
 .text-container {
     margin-top: 100px;
-    margin-left: 300px;
     margin-bottom: 50px;
     display: flex;
     flex-direction: row;
+    justify-content: center;
+    align-items: center;
 }
 
 .text-container2 {
     margin-top: 300px;
-    margin-left: 300px;
     margin-bottom: 50px;
     display: flex;
     flex-direction: row;
+    justify-content: center;
+    align-items: center;
 }
 
 .header-title {
@@ -338,6 +340,7 @@ button:hover{
     justify-content: center;
     flex-direction: row;
     margin-top: 4%;
+    margin-left: 50px;
 }
 
 .first-section {
@@ -376,7 +379,9 @@ button:hover{
 
 .heading-section {
     display: flex;
+    justify-content: center;
     align-items: center;
+    margin-right: 100px;
 }
 
 .heading-section-text {
