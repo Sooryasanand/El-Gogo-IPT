@@ -124,6 +124,28 @@ button:hover{
     padding-bottom: 100px;
 }
 
+.middle-section {
+    text-align: center;
+    padding-top: 100px;
+    padding-bottom: 200px;
+}
+
+.middle-section-heading {
+    font-size: 32px;
+    font-family: 'Source Sans Pro', sans-serif;
+    margin-bottom: 20px;
+}
+
+.button-text {
+    color: white;
+}
+
+.middle-section-body {
+    font-family: 'Roboto Flex', sans-serif;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 20px;
+}
+
 .first-text-side {
     width: 100px;
 }
@@ -154,7 +176,7 @@ button:hover{
 }
 
 .text-container2 {
-    margin-top: 300px;
+    margin-top: 250px;
     margin-bottom: 50px;
     display: flex;
     flex-direction: row;
@@ -162,9 +184,30 @@ button:hover{
     align-items: center;
 }
 
+.iphone1{
+    width: 600px;
+    height: 330px;
+    margin-left: 200px;
+    margin-top: 20px;
+}
+
+.iphone2{
+    width: 500px;
+    height: 330px;
+    margin-left: 200px;
+    margin-top: 20px;
+}
+
+.iphone3{
+    width: 640px;
+    height: 330px;
+    margin-left: 100px;
+    margin-top: 20px;
+}
+
 .header-title-top {
     font-size: 40px;
-    font-weight: 700px;
+    font-weight: lighter;
     font-family: "Google Sans", Roboto, Arial, Helvetica, sans-serif;
     color: var(--secondary-color)
 }
@@ -202,6 +245,40 @@ button:hover{
     letter-spacing: .25px;
 }
 
+.btn-Menu-getStarted {
+    padding: 14px 25px;
+    background-color: rgba(28,115,232,255);
+    color: var(--button-color);
+    border: none;
+    cursor: pointer;
+    transition: all 0.3s ease 0s;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    color: var(--primary-color);
+    margin-top: 30px;
+}
+
+.btn-Menu{
+    padding: 14px 25px;
+    background-color: rgba(28,115,232,255);
+    color: var(--button-color);
+    border: none;
+    cursor: pointer;
+    transition: all 0.3s ease 0s;
+
+    color: var(--primary-color);
+    margin-top: 30px;
+}
+
+.button-text {
+    color: var(--primary-color);
+}
+
+.btn-Menu-getStarted:hover{
+    background-color: #1968d1;
+}
+
 .manage-link {
     display: flex;
     flex-direction: row;
@@ -222,6 +299,11 @@ button:hover{
     margin-top: -50px;
 }
 
+.button-text{
+    text-decoration: none;
+    color: white;
+}
+
 .getstarted-section {
     margin: auto;
     margin-top: 300px;
@@ -238,7 +320,7 @@ button:hover{
     margin-right: auto;
 }
 
-.getStarted-text {
+.getstarted-text {
     text-align: center;
     margin-top: 30px;
     font-size: 40px;
@@ -248,7 +330,7 @@ button:hover{
     letter-spacing: 0.5px;
 }
 
-.btn-Menu-getStarted {
+.btn-Menu-getstarted {
     margin-left: 20px;
     padding: 14px 25px;
     background-color: rgba(28,115,232,255);
@@ -262,16 +344,32 @@ button:hover{
     margin-top: 30px;
 }
 
-.btn-Menu-getStarted:hover{
+.btn-Menu-getstarted:hover{
     background-color: #1968d1;
+}
+
+.text-side {
+    margin-top: 20px;
+    font-size: 18px;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-weight: lighter;
+    color: var(--secondary-color);
+}
+
+.text-side-bottom {
+    margin-top: 20px;
+    font-size: 18px;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-weight: lighter;
+    text-align: center;
+    color: var(--secondary-color);
 }
 
 .follow-section {
     display: flex;
     flex-direction: row;
-    margin-left: 120px;
     margin-top: 50px;
-    color: var(--secondary-color);
+    color: var(--secondary-color)
 }
 
 .follow-text {
@@ -292,70 +390,25 @@ button:hover{
 
 .BottomSection {
     height: 500px;
+    margin-left: 120px;
+    margin-right: 120px;
     background-color: var(--primary-color);
-
 }
 
 .line {
-    margin-left: 120px;
     margin-top: 40px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
-
-.btn-Menu-top-section {
-    margin-top: 30px;
-    margin-left: -2px;
-}
-
-.btn-Menu-top-section-a{
-    color: white
-}
-
-.middle-section {
-    text-align: center;
-    padding-top: 100px;
-    padding-bottom: 200px;
-}
-
-.middle-section-heading {
-    font-size: 32px;
-    font-family: 'Source Sans Pro', sans-serif;
-    margin-bottom: 20px;
-}
-
-.button-text {
-    color: white;
-}
-
-.middle-section-body {
-    font-family: 'Roboto Flex', sans-serif;
-    font-family: 'Source Sans Pro', sans-serif;
-    font-size: 20px;
-}
-
-.text-side {
-    margin-top: 20px;
-    font-size: 18px;
-    font-family: 'Source Sans Pro', sans-serif;
-    font-weight: lighter;
-    color: var(--secondary-color);
-}
-
-.text-side-bottom {
-    margin-top: 20px;
-    font-size: 18px;
-    font-family: 'Source Sans Pro', sans-serif;
-    font-weight: lighter;
-    text-align: center;
-    color: var(--secondary-color);
-}
-
 
 .bottom-section {
     display: flex;
     justify-content: center;
     flex-direction: row;
     margin-top: 4%;
-    margin-left: 50px;
+    padding-bottom: 40px;
 }
 
 .first-section {
@@ -429,12 +482,17 @@ button:hover{
     display: flex;
     justify-content: center;
     align-items: center;
-    margin-right: 100px;
+    margin-left: 50px;
+    margin-right: 50px;
+}
+
+.heading-section-two{
+    margin-left: 10%;
+    margin-right: 10%;
 }
 
 .heading-section-text {
     margin-right: 120px;
-    margin-left: 180px;
     margin-top: 50px;
     font-family: 'Radio Canada', sans-serif;
     font-weight: 400px;
@@ -443,11 +501,9 @@ button:hover{
 
 .heading-section-p-section {
     margin-top: 30px;
-    margin-left: 60px;
 }
 
 .heading-section-p {
-    margin-left: 120px;
     font-family: 'Roboto', sans-serif;
     color: var(--third-color);
     margin-bottom: 20px;
@@ -466,6 +522,26 @@ button:hover{
     }
 }
 
+.follow-patners{
+    display: flex;
+    flex-direction: row;
+    color: var(--secondary-color)
+}
+
+.partners-icon{
+    margin-top: 45px;
+    margin-left: 40px; 
+    font-family: Roboto;
+    font-size: 14px;
+    font-weight: 400;
+    width: 120px;
+    height: 30px;
+}
+
+.follow-patners{
+    justify-content: space-between;
+}
+
 .light-dark-mode {
     margin-right: 20px;
     margin-top: 8px;
@@ -477,5 +553,3 @@ button:hover{
 .light-dark-mode:hover {
     -webkit-animation: rotating 0.5s linear infinite;
 }
-
-

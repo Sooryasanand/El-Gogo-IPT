@@ -145,15 +145,15 @@ button:hover{
 
 .secondary-header::before {
     background: var(--primary-color);
-    animation: typewriter var(--typewriter-seed) steps(18) 1s forwards;
+    animation: typewriter var(--typewriter-seed) steps(35) 1s forwards;
 }
 
 .secondary-header::after {
     width: 4px;
     background: var(--secondary-color);
     animation: 
-        typewriter var(--typewriter-seed) steps(18) 1s forwards,
-        blink 750ms steps(18) infinite;
+        typewriter var(--typewriter-seed) steps(35) 1s forwards,
+        blink 750ms steps(35) infinite;
 }
 
 @keyframes typewriter {
@@ -261,6 +261,13 @@ button:hover{
     margin-top: -50px;
 }
 
+.android2 {
+    width: 370px;
+    height: 500px;
+    margin-left: 200px;
+    margin-top: -20px;
+}
+
 .getstarted-section {
     margin: auto;
     margin-top: 300px;
@@ -311,7 +318,6 @@ button:hover{
 .follow-section {
     display: flex;
     flex-direction: row;
-    margin-left: 120px;
     margin-top: 50px;
     color: var(--secondary-color)
 }
@@ -334,12 +340,17 @@ button:hover{
 
 .BottomSection {
     height: 500px;
+    margin-left: 120px;
+    margin-right: 120px;
     background-color: var(--primary-color);
 }
 
 .line {
-    margin-left: 120px;
     margin-top: 40px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .bottom-section {
@@ -347,7 +358,7 @@ button:hover{
     justify-content: center;
     flex-direction: row;
     margin-top: 4%;
-    margin-left: 50px;
+    padding-bottom: 40px;
 }
 
 .first-section {
@@ -421,12 +432,17 @@ button:hover{
     display: flex;
     justify-content: center;
     align-items: center;
-    margin-right: 100px;
+    margin-left: 50px;
+    margin-right: 50px;
+}
+
+.heading-section-two{
+    margin-left: 10%;
+    margin-right: 10%;
 }
 
 .heading-section-text {
     margin-right: 120px;
-    margin-left: 180px;
     margin-top: 50px;
     font-family: 'Radio Canada', sans-serif;
     font-weight: 400px;
@@ -435,11 +451,9 @@ button:hover{
 
 .heading-section-p-section {
     margin-top: 30px;
-    margin-left: 60px;
 }
 
 .heading-section-p {
-    margin-left: 120px;
     font-family: 'Roboto', sans-serif;
     color: var(--third-color);
     margin-bottom: 20px;
@@ -456,6 +470,26 @@ button:hover{
     to{
         -webkit-transform: rotate(360deg);
     }
+}
+
+.follow-patners{
+    display: flex;
+    flex-direction: row;
+    color: var(--secondary-color)
+}
+
+.partners-icon{
+    margin-top: 45px;
+    margin-left: 40px; 
+    font-family: Roboto;
+    font-size: 14px;
+    font-weight: 400;
+    width: 120px;
+    height: 30px;
+}
+
+.follow-patners{
+    justify-content: space-between;
 }
 
 .light-dark-mode {
