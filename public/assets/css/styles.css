@@ -27,10 +27,6 @@
 * {
     margin: 0;
     padding: 0;
-}
-
-body {
-    background-color: var(--primary-color);
     overflow-x: clip;
 }
 
@@ -39,6 +35,36 @@ li, a, button {
     font-weight: 500;
     font-size: 16px;
     text-decoration: none;
+}
+
+
+button {
+    padding-left: 40px;
+    padding: 14px 25px;
+    background-color: rgba(28,115,232,255);
+    color: var(--button-color);
+    border: none;
+    padding-left: 20px;
+    cursor: pointer;
+    transition: all 0.3s ease 0s;
+}
+
+button:hover{
+    background-color: #1968d1;
+}
+
+
+
+
+
+
+
+
+body {
+    background-color: var(--primary-color);
+    display: flex;
+    flex-direction: column;
+    gap: 10rem;
 }
 
 header {
@@ -92,33 +118,49 @@ nav a:hover {
     color: var(--secondary-color);
 }
 
-button {
-    padding-left: 40px;
-    padding: 14px 25px;
-    background-color: rgba(28,115,232,255);
-    color: var(--button-color);
-    border: none;
-    padding-left: 20px;
-    cursor: pointer;
-    transition: all 0.3s ease 0s;
-}
 
-button:hover{
-    background-color: #1968d1;
-}
 
-.header-container {
+
+
+
+
+
+
+
+
+/* Defines a section containing text usually accompanied
+   by an image either on the right or the left. */
+section {
     align-items: center;
     display: flex;
-    font-family: 'Inter', sans-serif;
+    column-gap: 12rem;
+    flex-wrap: wrap;
     justify-content: center;
+    row-gap: 4rem;
+}
+
+/* Configures a section to display in a column instead of a row. */
+section.flex-column {
+    flex-direction: column;
+}
+
+
+
+
+
+
+
+
+
+
+.header-container {
+    font-family: 'Inter', sans-serif;
 }
 
 .header-container > h1 {
     text-align: center;
     font-size: 45px;
     color: var(--secondary-color);
-    padding-top: 80px;
 }
 
 .secondary-header-container {
@@ -132,7 +174,6 @@ button:hover{
     font-Size: 25px;
     font-family: 'Source Code Pro', monospace;
     position: relative;
-    margin-top: 45px;
     width: max-content;
     box-sizing : border-box;
     animation-iteration-count: infinite;
@@ -184,17 +225,13 @@ button:hover{
 }
 
 .phone {
-    margin-top: -50px;
     width: 380px;
     height: 430px;
-    margin-right: 50px;
 }
 
 .Iphone {
-    margin-top: 80px;
     width: 350px;
     height: 550px;
-    margin-left: 50px;
 }
 
 .text-container {
@@ -264,21 +301,14 @@ button:hover{
 .android {
     width: 240px;
     height: 500px;
-    margin-left: 200px;
-    margin-top: -50px;
 }
 
 .android2 {
     width: 370px;
     height: 500px;
-    margin-left: 200px;
-    margin-top: -20px;
 }
 
 .getstarted-section {
-    margin: auto;
-    margin-top: 300px;
-    margin-bottom: 200px;
     width: 50%;
     padding: 10px;
 }
